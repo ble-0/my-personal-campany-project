@@ -1,0 +1,102 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #5e4b8b; 
+    background-color: #ffe5b4; 
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 250px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.heading h1 {
+    font-size: 80px;
+    color: #fff; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+
+.topnav {
+    margin-top: 200px;
+}
+
+.topnav a {
+    color: #fff; 
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #ff6f61; 
+    transition: background 0.3s, transform 0.3s; 
+    font-weight: bold; 
+}
+
+.topnav a:hover {
+    background-color: #ff3b30; 
+    transform: scale(1.05); 
+}
+
+section {
+    font-size: 26px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ff6f61; 
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    background: linear-gradient(to right, #fce38a, #f38181); 
+    margin: 20px 0;
+}
+
+#article1, #article2, #article3 {
+    display: grid;
+    gap: 1.5em;
+}
+
+#article1 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#article2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#article3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mission, .vision, .clients, .employees, .professional-ethics, .professionalism,
+.debt-recovery, .debt-surveillance, .investigation, .consultancy, .process-server,
+.reconciliation, .asset-searches {
+    border-radius: 20px;
+    border: solid 1px #ff6f61; 
+    padding: 15px;
+    background: linear-gradient(to bottom right, #ffb74d, #ff8a65); 
+}
+
+#contact {
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+    color: #5e4b8b; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #ff6f61; 
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
